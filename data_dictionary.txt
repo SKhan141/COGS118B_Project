@@ -1,0 +1,166 @@
+# ---------------------------------------------------------
+# team_rebounding_data_22.csv
+# 
+# This dataset has offensive rebounding data for each team/game in the 2022 season
+# ---------------------------------------------------------
+
+
+team: Three letter abbreviation for the NBA team pertaining to the row.   
+
+opp_team: Three letter abbreviation for an NBA team for the opposing NBA team in this row.  
+
+gamedate: When was the game?  
+
+game_number: 1-82, which game in the season was this?  
+
+offensive_rebounds: How many offensive rebounds did the team get in this game?  
+
+off_rebound_chances: How many opportunities for offensive rebounds did the team have in this game?  
+
+oreb_pct: What percent of offensive rebound opportunities did the team convert to offensive rebounds in the game?
+
+# ---------------------------------------------------------
+# awards_data.csv
+# 
+# This dataset has awards data for each player/season combo
+# ---------------------------------------------------------
+
+              
+season / nbapersonid: Uniquely identifies the row. Season is season and nbapersonid uniquely identifies players  
+
+All NBA Defensive First/Second Team: Was the player elected to the corresponding All NBA Defensive Team this season? 
+
+All NBA First/Second/Third Team: Was the player elected to the corresponding All NBA team this season?
+
+All Rookie First/Second Team: Was the player elected to the corresponding All Rookie team this season?   
+
+Bill Russell NBA Finals MVP: Did the player win Finals MVP this season?  
+
+Player Of the Month: How many player of the month awards did the player win this season?  
+
+Player Of the Week: How many player of the weed awards did the player win this season?  
+
+Rookie Of the Month: How many rookie of the month awards did the player win this season?  
+
+all_star_game: Was the player selected to an all star team this season?  
+
+rookie_all_star_game: Was the player selected to a rookie all star team this season?  
+
+allstar_rk: What was the player's rank in all-star voting this season?  
+
+Defensive Player Of The Year_rk: Player's rank in DPOY voting  
+
+Most Improved Player_rk: Player's rank in MIP voting  
+
+Most Valuable Player_rk: Player's rank in MVP voting  
+
+Rookie Of The Year_rk: Player's rank in ROTY voting  
+
+Sixth Man Of The Year_rk: Player's rank in 6MOTY voting  
+
+all_nba_points_rk: Player's rank in All-NBA voting  
+
+all_rookie_points_rk: Player's rank in All-Rookie voting  
+
+
+# ---------------------------------------------------------
+# team_stats.csv
+# 
+# This dataset has a few stats for each team/season combo
+# ---------------------------------------------------------
+
+nbateamid: uniquely identifies the NBA team.  
+
+team: Three letter abbreviation for the team.  
+
+season: Season in question.  
+
+games: How many games did the team play that season? Usually 82.  
+
+off_rtg: What is the team's offensive rating (points per 100 offensive possessions).  
+
+def_rtg: What is the team's defensive rating (points allowed per 100 defensive possessions).  
+
+net_rtg: What is the team's net rating (net points per 100 possessions).  
+
+W: How many wins did the team get?  
+
+L: How many losses did the team have?  
+
+
+# ---------------------------------------------------------
+# player_stats.csv
+# 
+# This dataset has a variety of stats and measures for each
+# player/ team / season combination.
+# ---------------------------------------------------------
+   
+ 
+
+season / nbapersonid / nbateamid. Uniquely identifies the row.  Season is season, nbapersonid is the player, nbateamid is the team. Note that the same player can play on multiple teams in the same season.  
+
+player: Player name, corresponding to nbapersonid
+
+draftyear: Year the player was drafted. If this is 2015, then the player was drafted in the summer of 2015 and his first season would be the 2015-16 season.  
+
+draftpick: At what pick was the player drafted?  
+
+team: Three letter abbreviation for the team, corresponding to nbateamid  
+
+games: How many games did the player play this season?  
+
+games_start: How many games did the player start this season?  
+
+mins: Total minutes played  
+
+fgm: Total field goals made
+
+fga: Total field goals attempted
+
+fgp: Field goal percent  
+
+fgm3: 3PT field goals made
+
+fga3: 3PT field goals attempted  
+
+fgp3: 3PT field goal percent 
+
+fgm2: 2PT field goals made
+
+fga2: 2PT field goals attempted 
+
+fgp2: 2PT field goal percent  
+
+eFG: Effective field goal percent, accounts for the fact that 3 is worth more than 2.
+
+ftm/fta/ftp: Free throws made, attempted, and percentage  
+
+off/def/tot_reb: offensive, defensive, and total rebounds
+
+ast/steal/blocks/tov: Number of assists, steals, blocks, and turnovers
+
+tot_fouls: Number of fouls 
+
+points: Number of points scored  
+
+PER: John Hollinger's PER
+
+FTr: Free Throw Rate: Free throws made per field goal attempt
+
+off/def/tot_reb_pct: Offensive, defensive, total rebound percentage
+
+ast_pct: Assist percent
+
+stl_pct: Steal percent
+
+blk_pct: Block percent
+
+tov_pct: Turnover percent
+
+usg: Usage
+
+OWS/DWS/WS: Offensive/defensive/overall win shares
+
+OBPM/DBPM/BPM: Offensive/defensive/overall box plus minus
+
+VORP: Value over replacement player
